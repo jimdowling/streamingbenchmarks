@@ -17,7 +17,9 @@ depends "java"
   supports os
 end
 
-
+attribute "java/jdk_version",
+:display_name =>  "Jdk version",
+:type => 'string'
 
 attribute "streamingbenchmarks/group",
 :description => "group parameter value",
